@@ -1,0 +1,6 @@
+# Nasher cache and user config files
+.nasher/*
+
+# Binary files that should not be included
+
+*.mod
