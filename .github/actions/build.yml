@@ -1,0 +1,32 @@
+name: "Build Module"
+author: IrateRedKite
+description: "Composite action for building and releasing a Module"
+
+jobs:
+  ci_build:
+    runs-on: ubuntu-latest
+    name: 'NWN:EE CI Build'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Build module
+        uses: Ardesco/nasher4gh@v1
+        with:
+          args: '[''pack'', ''--default'', ''-usenwnscriptcomp'']'
+
+      - name: "Get current date and release notes"
+        id: date
+        shell: bash
+        run: |
+          echo "::set-output name=date::$(date +''%Y-%m-%d-%H-%M'')"
+          BODY=$(git log ${GITHUB_REF##*/} --since='24 hours ago' | sed -En 's/^ +?([a-z]+:\w*)/\1/p' | awk '{print "- "$0}')
+          printf '%s\n' "${BODY[@]}" | tac > RELEASE.MD
+          
+      - name: "Create Release"
+        id: create_release
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "${{ github.workspace }}/*.mod"
+          bodyFile: "RELEASE.MD"
+          tag: ${{ steps.date.outputs.date }}
