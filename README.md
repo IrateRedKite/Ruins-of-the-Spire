@@ -14,3 +14,5 @@ A story-rich dungeon crawling module for Neverwinter Nights: Enchanced Edition.
 
 ### External
 
+- Winternite, The Amethyst Dragon, Pstemarie, CEP Teams, NWN Community: [The CEP3 Community expansion pack 3.1.3](https://neverwintervault.org/project/nwnee/hakpak/combined/cep-3-community-expansion-pack)
+
