@@ -53,7 +53,7 @@
   },
   "Mod_Entry_Area": {
     "type": "resref",
-    "value": "theechowood"
+    "value": "spireruinscentra"
   },
   "Mod_Entry_Dir_X": {
     "type": "float",
@@ -65,15 +65,15 @@
   },
   "Mod_Entry_X": {
     "type": "float",
-    "value": 80.0
+    "value": 91.93000000000001
   },
   "Mod_Entry_Y": {
     "type": "float",
-    "value": 80.0
+    "value": 142.0533
   },
   "Mod_Entry_Z": {
     "type": "float",
-    "value": 0.0
+    "value": -0.0
   },
   "Mod_Expan_List": {
     "type": "list",

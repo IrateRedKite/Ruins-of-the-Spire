@@ -1099,6 +1099,22 @@
                 "type": "byte",
                 "value": 11
               },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Dead Tree"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "deadtree001"
+                    }
+                  }
+                ]
+              },
               "STRREF": {
                 "type": "dword",
                 "value": 16810737
@@ -1131,6 +1147,44 @@
               "ID": {
                 "type": "byte",
                 "value": 110
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Rubble"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "rubble"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Rubble"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "rubble001"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Rubble"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "rubble002"
+                    }
+                  }
+                ]
               },
               "STRREF": {
                 "type": "dword",
@@ -1203,6 +1257,33 @@
                       "type": "byte",
                       "value": 115
                     },
+                    "LIST": {
+                      "type": "list",
+                      "value": [
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Grass"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "grass"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Weeds"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "weeds"
+                          }
+                        }
+                      ]
+                    },
                     "STRREF": {
                       "type": "dword",
                       "value": 16810720
@@ -1213,6 +1294,33 @@
                     "ID": {
                       "type": "byte",
                       "value": 151
+                    },
+                    "LIST": {
+                      "type": "list",
+                      "value": [
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Ivy"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "ivy"
+                          }
+                        },
+                        {
+                          "__struct_id": 0,
+                          "NAME": {
+                            "type": "cexostring",
+                            "value": "Ivy"
+                          },
+                          "RESREF": {
+                            "type": "resref",
+                            "value": "ivy001"
+                          }
+                        }
+                      ]
                     },
                     "STRREF": {
                       "type": "dword",
