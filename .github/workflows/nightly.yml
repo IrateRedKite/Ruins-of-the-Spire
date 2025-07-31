@@ -23,10 +23,10 @@ jobs:
         if: ${{ github.event_name == 'schedule' }}
         run: test -z $(git rev-list  --after="24 hours"  ${{ github.sha }}) && echo "::set-output name=should_run::false"
 
-  build-msvc:
+  build-module:
     needs: date-check
     if: ${{ needs.date-check.outputs.should_run != 'false' }}
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
@@ -36,5 +36,3 @@ jobs:
       - name: "Build Module"
         id: "build"
         uses: "./.github/actions/build"
-        with:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
