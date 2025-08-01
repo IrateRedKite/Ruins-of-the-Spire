@@ -9,7 +9,6 @@ on:
 jobs:
   date-check:
     runs-on: ubuntu-latest
-    name: Check latest commit
     outputs:
       should_run: ${{ steps.should_run.outputs.should_run }}
     steps:
@@ -36,3 +35,4 @@ jobs:
       - name: "Build Module"
         id: "build"
         uses: "./.github/actions/build"
+        
