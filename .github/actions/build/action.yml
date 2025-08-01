@@ -22,11 +22,17 @@ runs:
         echo "::set-output name=date::$(date +''%Y-%m-%d-%H-%M'')"
         BODY=$(git log ${GITHUB_REF##*/} --since='24 hours ago' | sed -En 's/^ +?([a-z]+:\w*)/\1/p' | awk '{print "- "$0}')
         printf '%s\n' "${BODY[@]}" | tac > RELEASE.MD
+
+    - name: Compress module
+      id: compress
+      shell: bash
+      run: |
+        7z a -t7z -mx=9 -mtm- Release-${{ steps.date.outputs.date }}.7z *.mod README.md LICENSE
         
     - name: "Create Release"
       id: create_release
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "${{ github.workspace }}/*.mod"
+        artifacts: "${{ github.workspace }}/*.7z"
         bodyFile: "RELEASE.MD"
         tag: nightly-${{ steps.date.outputs.date }}
