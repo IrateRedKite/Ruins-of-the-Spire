@@ -906,6 +906,22 @@
           "type": "byte",
           "value": 6
         },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Lockbox"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "lockbox_001"
+              }
+            }
+          ]
+        },
         "STRREF": {
           "type": "dword",
           "value": 6782
@@ -1038,6 +1054,22 @@
         "ID": {
           "type": "byte",
           "value": 8
+        },
+        "LIST": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "NAME": {
+                "type": "cexostring",
+                "value": "Shield"
+              },
+              "RESREF": {
+                "type": "resref",
+                "value": "shield"
+              }
+            }
+          ]
         },
         "STRREF": {
           "type": "dword",
