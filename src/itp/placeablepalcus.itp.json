@@ -1652,6 +1652,22 @@
                 "type": "byte",
                 "value": 41
               },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Statue, Dwarf Large"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "statue002"
+                    }
+                  }
+                ]
+              },
               "STRREF": {
                 "type": "dword",
                 "value": 16810754
@@ -1856,6 +1872,22 @@
               "ID": {
                 "type": "byte",
                 "value": 5
+              },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Light Shaft"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "lightshaft"
+                    }
+                  }
+                ]
               },
               "STRREF": {
                 "type": "dword",
