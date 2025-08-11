@@ -11,14 +11,14 @@
         "__struct_id": 6,
         "Area_Name": {
           "type": "resref",
-          "value": "theechowood"
+          "value": "spireruinscentra"
         }
       },
       {
         "__struct_id": 6,
         "Area_Name": {
           "type": "resref",
-          "value": "spireruinscentra"
+          "value": "theechowood"
         }
       }
     ]
@@ -65,15 +65,15 @@
   },
   "Mod_Entry_X": {
     "type": "float",
-    "value": 85.00660000000001
+    "value": 85.0
   },
   "Mod_Entry_Y": {
     "type": "float",
-    "value": 154.3786
+    "value": 154.0
   },
   "Mod_Entry_Z": {
     "type": "float",
-    "value": 0.1514
+    "value": 0.0
   },
   "Mod_Expan_List": {
     "type": "list",
@@ -86,6 +86,13 @@
   "Mod_HakList": {
     "type": "list",
     "value": [
+      {
+        "__struct_id": 8,
+        "Mod_Hak": {
+          "type": "cexostring",
+          "value": "ruins_cc"
+        }
+      },
       {
         "__struct_id": 8,
         "Mod_Hak": {
