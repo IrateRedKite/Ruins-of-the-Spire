@@ -1695,7 +1695,29 @@
                     },
                     "RESREF": {
                       "type": "resref",
-                      "value": "statue002"
+                      "value": "statuedwarf001"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Statue, Dwarf Large Broken"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "statuedwarf002"
+                    }
+                  },
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Statue, Dwarf Large Broken"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "statuedwarf003"
                     }
                   }
                 ]

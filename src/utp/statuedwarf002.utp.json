@@ -6,7 +6,7 @@
   },
   "Appearance": {
     "type": "dword",
-    "value": 2941
+    "value": 26202
   },
   "AutoRemoveKey": {
     "type": "byte",
@@ -22,7 +22,7 @@
   },
   "Comment": {
     "type": "cexostring",
-    "value": "Statue - Stone"
+    "value": ""
   },
   "Conversation": {
     "type": "resref",
@@ -30,17 +30,15 @@
   },
   "CurrentHP": {
     "type": "short",
-    "value": 15
+    "value": 10
   },
   "Description": {
     "type": "cexolocstring",
-    "value": {
-      "id": 14732
-    }
+    "value": {}
   },
   "DisarmDC": {
     "type": "byte",
-    "value": 15
+    "value": 0
   },
   "Faction": {
     "type": "dword",
@@ -48,7 +46,7 @@
   },
   "Fort": {
     "type": "byte",
-    "value": 16
+    "value": 5
   },
   "Hardness": {
     "type": "byte",
@@ -60,11 +58,11 @@
   },
   "HP": {
     "type": "short",
-    "value": 15
+    "value": 10
   },
   "Interruptable": {
     "type": "byte",
-    "value": 0
+    "value": 1
   },
   "KeyName": {
     "type": "cexostring",
@@ -76,7 +74,7 @@
   },
   "Lockable": {
     "type": "byte",
-    "value": 0
+    "value": 1
   },
   "Locked": {
     "type": "byte",
@@ -85,8 +83,7 @@
   "LocName": {
     "type": "cexolocstring",
     "value": {
-      "0": "Statue, Dwarf Large",
-      "id": 14536
+      "0": "Statue, Dwarf Large Broken"
     }
   },
   "OnClick": {
@@ -151,7 +148,7 @@
   },
   "OpenLockDC": {
     "type": "byte",
-    "value": 18
+    "value": 0
   },
   "PaletteID": {
     "type": "byte",
@@ -175,11 +172,11 @@
   },
   "Tag": {
     "type": "cexostring",
-    "value": "StatueStone"
+    "value": "StatueDwarfLarge002"
   },
   "TemplateResRef": {
     "type": "resref",
-    "value": "statue002"
+    "value": "statuedwarf002"
   },
   "TrapDetectable": {
     "type": "byte",
