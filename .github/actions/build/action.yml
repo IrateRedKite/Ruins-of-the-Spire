@@ -15,6 +15,11 @@ runs:
       with:
         args: '[''pack'', ''--default'', ''-usenwnscriptcomp'']'
 
+    - name: Build hak
+      uses: Ardesco/nasher4gh@v1
+      with:
+        args: '[''pack'', ''haks'', ''-usenwnscriptcomp'']'
+
     - name: "Get current date and release notes"
       id: date
       shell: bash
@@ -27,7 +32,7 @@ runs:
       id: compress
       shell: bash
       run: |
-        7z a -t7z -mx=9 -mtm- Release-${{ steps.date.outputs.date }}.7z *.mod README.md LICENSE
+        7z a -t7z -mx=9 -mtm- Release-${{ steps.date.outputs.date }}.7z *.mod *.hak README.md LICENSE
         
     - name: "Create Release"
       id: create_release
