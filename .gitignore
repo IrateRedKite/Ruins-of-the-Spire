@@ -4,3 +4,8 @@
 # Binary files that should not be included
 
 *.mod
+*.hak
+
+# Packed Blender files
+*.blend
+*.blend1
