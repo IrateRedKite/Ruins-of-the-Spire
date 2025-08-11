@@ -2,7 +2,7 @@
 filedependancy rots_s002.blend
 newmodel rots_s002
 setsupermodel rots_s002 a_da
-classification CHARACTER
+classification ITEM
 setanimationscale 0.7
 beginmodelgeom rots_s002
 node dummy rots_s002
@@ -38,7 +38,6 @@ node trimesh pelvis_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 32
     -0.26087 -0.24428 -0.44860
     -0.33802 -0.13524 -0.60668
@@ -211,7 +210,6 @@ node trimesh lthigh_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 30
      0.00256 -0.13461  0.14617
      0.12952  0.06612  0.14672
@@ -355,7 +353,6 @@ node trimesh lshin_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 18
      0.41155  0.02311 -0.00080
      0.17553  0.01730  0.09261
@@ -456,7 +453,6 @@ node trimesh lfoot_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 11
      0.34359  0.03033 -0.00179
      0.35568  0.11884 -0.29505
@@ -529,7 +525,6 @@ node trimesh rthigh_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 30
     -0.12952  0.06612  0.14672
     -0.00256 -0.13461  0.14617
@@ -673,7 +668,6 @@ node trimesh rshin_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 18
     -0.17554  0.01730  0.09261
     -0.41155  0.02311 -0.00080
@@ -774,7 +768,6 @@ node trimesh rfoot_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 11
     -0.35373  0.11884 -0.29505
     -0.33998  0.03033 -0.00179
@@ -847,7 +840,6 @@ node trimesh torso_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 93
      0.00000  0.36692 -0.02703
      0.33471 -0.09197  0.61175
@@ -1286,7 +1278,6 @@ node trimesh lbicep_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 40
      0.03257 -0.28240 -0.03638
      0.38872 -0.05753 -0.00200
@@ -1476,7 +1467,7 @@ node trimesh lbicep_g
 endnode
 node trimesh lforearm_g
   parent lbicep_g
-  position  0.56294  0.63175 -1.31359
+  position  0.87528  0.91287 -1.10809
   orientation -0.34371  0.50669 -0.79065  0.80928
   wirecolor 1.00 1.00 1.00
   bitmap tcn01_stone05
@@ -1489,7 +1480,6 @@ node trimesh lforearm_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 45
      0.41047 -0.18185 -0.11436
     -0.20872  0.28826  0.00230
@@ -1706,7 +1696,7 @@ node dummy lforearm
 endnode
 node trimesh lforearm_g.001
   parent lbicep_g
-  position  1.34057  1.30430 -1.76240
+  position  1.69213  1.62072 -1.53108
   orientation -0.57366  0.59686 -0.56096  1.43308
   wirecolor 1.00 1.00 1.00
   bitmap tcn01_stone05
@@ -1719,7 +1709,6 @@ node trimesh lforearm_g.001
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 38
      0.16304  0.06819 -0.68849
     -0.09772 -0.00921 -0.80233
@@ -1927,7 +1916,6 @@ node trimesh lshoulder_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 25
      0.00391 -0.41301  0.11821
      0.27064 -0.24443  0.29380
@@ -2031,7 +2019,7 @@ node trimesh lshoulder_g
 endnode
 node trimesh lbicep_g.001
   parent torso_g
-  position  2.69101 -0.96838 -2.80011
+  position  2.69101 -0.96838 -2.97979
   orientation -0.78788  0.52894  0.31538  1.73003
   wirecolor 1.00 1.00 1.00
   bitmap tcn01_stone05
@@ -2044,7 +2032,6 @@ node trimesh lbicep_g.001
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 32
      0.36911 -0.14376 -0.64884
      0.00560 -0.17227 -1.00808
@@ -2217,7 +2204,6 @@ node trimesh rbicep_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 21
     -0.38872 -0.05753 -0.00200
     -0.03257 -0.28240 -0.03638
@@ -2329,7 +2315,6 @@ node trimesh rshoulder_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 25
     -0.27064 -0.24443  0.29380
     -0.00391 -0.41301  0.11821
@@ -2448,7 +2433,6 @@ node trimesh rforearm_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 41
     -0.29000 -0.21743 -0.37877
     -0.41047 -0.18185 -0.11436
@@ -2658,7 +2642,6 @@ node trimesh box01
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 8
     -1.21097 -1.12399  0.00000
     -1.21097  1.12399  0.00000
@@ -2710,7 +2693,6 @@ node trimesh box02
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 8
     -1.50388 -1.39586  0.00000
     -1.50388  1.39586  0.00000

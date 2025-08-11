@@ -1,8 +1,8 @@
-# NeverBlender 4.1.0|Blender 4.0.0|2025-08-10
+# NeverBlender 4.1.0|Blender 4.0.0|2025-08-11
 filedependancy rots_s001.blend
 newmodel rots_s001
 setsupermodel rots_s001 a_da
-classification CHARACTER
+classification ITEM
 setanimationscale 0.7
 beginmodelgeom rots_s001
 node dummy rots_s001
@@ -38,7 +38,6 @@ node trimesh pelvis_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 32
     -0.26087 -0.24428 -0.44860
     -0.33802 -0.13524 -0.60668
@@ -211,7 +210,6 @@ node trimesh lthigh_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 44
      0.00256 -0.13461  0.14617
      0.12952  0.06612  0.14672
@@ -401,7 +399,6 @@ node trimesh lshin_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 18
      0.41155  0.02311 -0.00080
      0.17553  0.01730  0.09261
@@ -502,7 +499,6 @@ node trimesh lfoot_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 11
      0.34359  0.03033 -0.00179
      0.35568  0.11884 -0.29505
@@ -575,7 +571,6 @@ node trimesh rthigh_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 44
     -0.12952  0.06612  0.14672
     -0.00256 -0.13461  0.14617
@@ -765,7 +760,6 @@ node trimesh rshin_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 18
     -0.17554  0.01730  0.09261
     -0.41155  0.02311 -0.00080
@@ -866,7 +860,6 @@ node trimesh rfoot_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 11
     -0.35373  0.11884 -0.29505
     -0.33998  0.03033 -0.00179
@@ -939,7 +932,6 @@ node trimesh torso_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 66
      0.00000  0.36692 -0.02703
      0.30108  0.00844 -0.14799
@@ -1256,7 +1248,7 @@ node dummy impact
 endnode
 node danglymesh head_g
   parent rots_s001
-  position -1.97057  1.41720  0.34293
+  position -1.97057  1.72616  0.05361
   orientation -0.81603  0.03397  0.57701  2.40771
   wirecolor 1.00 1.00 1.00
   bitmap tcn01_stone05
@@ -1269,7 +1261,6 @@ node danglymesh head_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 31
      0.00000 -0.44715  0.07332
      0.06645 -0.47165  0.15925
@@ -1431,7 +1422,6 @@ node trimesh helmet_g
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 36
      0.00000  0.00000  0.39655
     -0.02857 -0.40098  0.29132
@@ -1580,7 +1570,6 @@ node trimesh box01
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 8
     -1.21097 -1.12399  0.00000
     -1.21097  1.12399  0.00000
@@ -1632,7 +1621,6 @@ node trimesh box02
   selfillumcolor 0.00 0.00 0.00
   render 1
   shadow 1
-  tilefade 0
   verts 8
     -1.50388 -1.39586  0.00000
     -1.50388  1.39586  0.00000
