@@ -1109,6 +1109,22 @@
                 "type": "byte",
                 "value": 105
               },
+              "LIST": {
+                "type": "list",
+                "value": [
+                  {
+                    "__struct_id": 0,
+                    "NAME": {
+                      "type": "cexostring",
+                      "value": "Campfire"
+                    },
+                    "RESREF": {
+                      "type": "resref",
+                      "value": "campfire"
+                    }
+                  }
+                ]
+              },
               "STRREF": {
                 "type": "dword",
                 "value": 16810732
